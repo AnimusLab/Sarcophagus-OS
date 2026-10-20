@@ -1,7 +1,7 @@
 # Sarcophagus OS
 
 <p align="center">
-  <img src="docs/assets/logo.png" alt="Sarcophagus OS Logo" width="180"/>
+  <img src="logo.png" alt="Sarcophagus OS Logo" width="180"/>
 </p>
 
 <p align="center">
