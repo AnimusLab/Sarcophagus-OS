@@ -1,0 +1,96 @@
+# ==========================================
+# Rust Artifacts
+# ==========================================
+/target/
+**/*.rs.bk
+*.rlib
+*.bin
+
+# Cargo lock files (keep if it's an application, ignore if purely a library)
+# Cargo.lock
+
+# ==========================================
+# C / C++ & Build Systems
+# ==========================================
+# Object files & Libraries
+*.o
+*.ko
+*.obj
+*.elf
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories & Make
+/build/
+/bin/
+/dist/
+/out/
+Makefile.in
+.libs/
+.deps/
+*.la
+*.lo
+**/target/
+*.zip
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Autotools artifacts
+/autom4te.cache/
+/aclocal.m4
+/compile
+/config.guess
+/config.h
+/config.h.in
+/config.log
+/config.status
+/config.sub
+/configure
+/depcomp
+/install-sh
+/missing
+
+# ==========================================
+# Kernel & AOSP / Android Build Artifacts
+# ==========================================
+*.mod
+*.mod.c
+*.symvers
+*.order
+.tmp_versions/
+.vmlinux*
+.config
+.config.old
+
+# ==========================================
+# IDEs & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Local Environment & Logs
+# ==========================================
+*.log
+.env
+/logs/

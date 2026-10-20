@@ -1,0 +1,23 @@
+## Sarcophagus OS hardened Tor Configuration
+
+User debian-Tor
+DataDirectory /var/lib/tor
+
+# Transparent Proxying for system-wide TCP intercept
+TransPort 127.0.0.1:9040
+
+# Local Tor DNS Resolver (Eidolon hooks into this port 5353)
+DNSPort 127.0.0.1:5353
+
+# Prevent IP leaks via failed DNS lookups
+AutomapHostsOnResolve 1
+AutomapHostsSuffixes .exit,.onion
+
+@ Security & Anonymity Hardening
+DisableDebuggerAttachment 1
+SafeLogging 1
+AviodDisjointRouting 1
+KeepalivePeriod 60
+
+# Disable socks port external listeners
+SocksPort 127.0.0.1:9050

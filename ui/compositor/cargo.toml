@@ -1,0 +1,9 @@
+[package]
+name = "compositor"
+version = "0.1.0"
+edition = "2021"
+authors = ["AnimusLab <sarcophagus@animuslab.tech>"]
+
+[dependencies]
+iced = { version = "0.14", features = ["tokio", "wayland"] }
+tokio = { version = "1.38", features = ["full"] }
